@@ -53,8 +53,8 @@ setup(
     zip_safe=False,
 
     install_requires=[
-    'Schevo == dev, >= 3.1a1dev-r3444',
-    'ZODB3 == 3.7.0',
+    'Schevo == dev, >= 3.1a1dev-r3555',
+    'ZODB3 >= 3.8.0b3',
     ],
 
     tests_require=[
