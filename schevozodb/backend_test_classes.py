@@ -19,7 +19,7 @@ _cached_dbs = set(
 
 
 def random_filename():
-    return os.tempnam()
+    return os.tempnam(None, 'schevo')
 
 
 class TestMethods_CreatesDatabase(object):
