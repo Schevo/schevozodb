@@ -53,12 +53,12 @@ setup(
     zip_safe=False,
 
     install_requires=[
-    'Schevo == dev, >= 3.1a1dev-r3555',
-    'ZODB3 >= 3.8.0b3',
+    'Schevo == dev, >= 3.1a1dev',
+    'ZODB3 >= 3.8.0c1',
     ],
 
     tests_require=[
-    'nose >= 0.9.0',
+    'nose >= 0.10.1',
     ],
     test_suite='nose.collector',
 
@@ -66,7 +66,6 @@ setup(
     },
 
     dependency_links = [
-    'http://schevo.org/files/thirdparty/',
     ],
 
     entry_points = """
