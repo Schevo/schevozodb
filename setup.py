@@ -17,7 +17,8 @@ setup(
     for Python and the Schevo_ DBMS.
 
     The latest development version is available in a `Subversion
-    repository <http://schevo.org/svn/trunk/Zodb#egg=SchevoZodb-dev>`__.
+    repository 
+    <http://getschevo.org/hg/repos.cgi/schevozodb-dev/archive/tip.tar.gz#egg=SchevoZodb-dev>`__.
 
     .. _Schevo: http://schevo.org/
     
