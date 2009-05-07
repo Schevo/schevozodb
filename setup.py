@@ -1,4 +1,4 @@
-__version__ = '3.1a2'
+__version__ = '3.1b1'
 
 from setuptools import setup, Extension, find_packages
 import sys, os
@@ -20,7 +20,7 @@ setup(
     <http://getschevo.org/hg/repos.cgi/schevozodb-dev/archive/tip.tar.gz#egg=SchevoZodb-dev>`__.
 
     .. _Schevo: http://schevo.org/
-    
+
     .. _ZODB3: http://www.zope.org/Products/ZODB3
     """),
 
@@ -28,7 +28,7 @@ setup(
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)',
+    'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Database :: Database Engines/Servers',
@@ -37,12 +37,12 @@ setup(
 
     keywords='database dbms',
 
-    author='Orbtech, L.L.C. and contributors',
+    author='ElevenCraft Inc.',
     author_email='schevo@googlegroups.com',
 
-    url='http://schevo.org/wiki/SchevoZodb',
+    url='http://www.schevo.org/',
 
-    license='LGPL',
+    license='MIT',
 
     platforms=['UNIX', 'Windows'],
 
