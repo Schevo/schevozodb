@@ -53,12 +53,12 @@ setup(
     zip_safe=False,
 
     install_requires=[
-    'Schevo >= 3.1a1',
-    'ZODB3 >= 3.8.0c1',
+        'ZODB3 >= 3.8.0',
     ],
 
     tests_require=[
-    'nose >= 0.10.1',
+        'nose >= 0.11.0',
+        'Schevo == dev, >= 3.1b1dev-20090507',
     ],
     test_suite='nose.collector',
 
